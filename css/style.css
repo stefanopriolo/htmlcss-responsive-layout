@@ -2,7 +2,9 @@
     --padding-large: 2rem;
     --blue-dark: #0084fd;
     --grey-text: #5a6e7f;
+    --violet-bg: #9792e4;
     --white: white;
+    --black: black;
 }
 
 * {
@@ -31,7 +33,7 @@
     align-items: center;
 }
 
-.row img {
+#logo {
     width: 80px;
     padding: 0.5rem;
 }
@@ -40,6 +42,13 @@
    padding-right: 0.5rem
 }
 
+.pad-bot {
+    padding-bottom: var(--padding-large) ;
+}
+
+.pad-top {
+    padding-top: var(--padding-large);
+}
 /* -------------- inizio section ----------- */
 
 .card {
@@ -50,9 +59,12 @@ padding: 2rem 2rem 0rem 2rem;
 }
 
 .row-card {
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
     padding-top: var(--padding-large);
 }
+
+
 
 .card h2 {
     padding-bottom: var(--padding-large);
@@ -80,20 +92,58 @@ padding: 2rem 2rem 0rem 2rem;
    border-radius: 20px;
 }
 
-/* ----Image----- */
-
+/* ----Images----- */
+.margin-neg {
+    margin-bottom: -2.2rem;
+}
 .card img {
 width: 100%;
-margin-bottom: -0.8rem;
 }
 
+.row img {
+    width: 100%;
+    padding-bottom: var(--padding-large);
+}
 /* -----Icon------- */
 
 .icon {
+    width: 100%;
     font-size: 100px;
     padding-bottom: var(--padding-large);
 }
     
 .center {
     text-align: center;
+}
+
+.bg-violet {
+    background-color: var(--violet-bg);
+}
+
+h1 {
+    text-align: start;
+    color: var(--white);
+    padding-top: var(--padding-large);
+    padding-bottom: var(--padding-large);
+}
+
+p.pad-top {
+    color: var(--white);
+line-height: 1.5rem;
+    padding-bottom: var(--padding-large);
+}
+
+.bg-white {
+    background-color: var(--white);
+    border-radius: 40px;
+}
+
+#black {
+    color: var(--black);
+}
+
+.bg-white i {
+    width: 100%;
+    font-size: 50px;
+    padding-bottom: var(--padding-large);
 }
