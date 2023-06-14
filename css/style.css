@@ -1,5 +1,5 @@
 :root {
-    --padding-large: 3rem;
+    --padding-large: 2rem;
     --blue-dark: #0084fd;
     --grey-text: #5a6e7f;
     --white: white;
@@ -62,13 +62,14 @@ padding: 2rem 2rem 0rem 2rem;
 .card p {
     line-height: 1.5rem;
     color: var(--grey-text);
+    padding-bottom: var(--padding-large);
 }
 
 /* ----Button---- */
 
 .button {
-    padding-top: var(--padding-large);
     padding-bottom: var(--padding-large);
+    letter-spacing: 0.1rem;
 }
 
 .button a {
@@ -84,4 +85,15 @@ padding: 2rem 2rem 0rem 2rem;
 .card img {
 width: 100%;
 margin-bottom: -0.8rem;
+}
+
+/* -----Icon------- */
+
+.icon {
+    font-size: 100px;
+    padding-bottom: var(--padding-large);
+}
+    
+.center {
+    text-align: center;
 }
