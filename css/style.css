@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    width: 320px;
+    background-color: #0084fd;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row img {
+    width: 25%;
+    padding: 1rem;
+}
+
+.row svg {
+    padding-right: 2rem;
+}
